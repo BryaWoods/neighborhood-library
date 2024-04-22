@@ -43,10 +43,6 @@ public class Book {
         return isCheckedOut;
     }
 
-    public void setCheckedOut(boolean checkedOut) {
-        isCheckedOut = checkedOut;
-    }
-
     public String getIsCheckedOutTo() {
         return isCheckedOutTo;
     }
@@ -54,11 +50,15 @@ public class Book {
     public void setIsCheckedOutTo(String isCheckedOutTo) {
         this.isCheckedOutTo = isCheckedOutTo;
     }
+
     public void checkOut(String name){
         if (!isCheckedOut) {
             isCheckedOut = true;
             isCheckedOutTo = name;
-            System.out.println(title + " was checked out by " + name);
+            System.out.println(" ");
+            System.out.println("Great choice Traveler " + name + "!");
+            System.out.println(" ");
+            System.out.println(" ⋆⋅☆⋅⋆ " + title + " was checked out by " + name + " ⋆⋅☆⋅⋆ ");
         }
     }
 
