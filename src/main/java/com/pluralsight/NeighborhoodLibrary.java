@@ -16,7 +16,7 @@ public class NeighborhoodLibrary {
 
 
         System.out.println(" ");
-        System.out.println("─── ･ ｡ﾟ☆: *.☽ .* :☆ﾟ. ───");
+        System.out.println("───  ･ ｡ﾟ☆: *.☽ .* :☆ﾟ.  ───");
         System.out.println("Hello Traveler!\n" + "You've stumbled upon a library on your journey!\n");
         System.out.println( "Welcome to ");
         System.out.println("˚₊‧✩ੈ* Brya's Strange and Mysterious Library *ੈ✩‧₊˚");
