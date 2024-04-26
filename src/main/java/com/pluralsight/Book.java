@@ -66,7 +66,7 @@ public class Book {
         if (isCheckedOut) {
             isCheckedOut = false;
             isCheckedOutTo = "";
-            System.out.println(title + " is checked in :P");
+            System.out.println(title + " is checked in");
         }
     }
 }

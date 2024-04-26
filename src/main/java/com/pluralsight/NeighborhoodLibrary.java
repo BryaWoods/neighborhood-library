@@ -51,9 +51,8 @@ public class NeighborhoodLibrary {
                     System.out.println("Invalid option. Try again.");
             }
 
-        }
 
-        scanner.close();
+        }
 
     }
 
